@@ -9,9 +9,9 @@
 ```
 For example, suppose the receiver selected the primes p=11 and q=17, along with e=3.
 
-The receiver calculates n = p * q = 11 \cdot 17=187n=pq=11⋅17=187, which is half of the public key.
-The receiver also calculates totient(n)=(p-1)(q-1)=10 \cdot 16=160ϕ(n)=(p−1)(q−1)=10⋅16=160. e=3e=3 was also chosen.
-The receiver calculates d=107d=107, since then de=321 \equiv 1 \pmod{{\small\phi(n)}}de=321≡1(modϕ(n)) \big((since \phi(n)=160).ϕ(n)=160).
+The receiver calculates n = p * q = 11 * 17 = 187 n = p * q = 11 * 17 = 187, which is half of the public key.
+The receiver also calculates ϕ(n)=(p-1)(q-1)=10 * 16=160 ϕ(n)=(p−1)(q−1)=10⋅16=160. e = 3 was also chosen.
+The receiver calculates d = 107, since then de = 321 \equiv 1 \pmod{{\small\phi(n)}}de=321≡1(modϕ(n)) \big((since \phi(n)=160).ϕ(n)=160).
 The receiver distributes his public key: n=187n=187 and e=3e=3.
 Now suppose the sender wanted to send the message "HELLO". Since nn is so small, the sender will have to send his message character by character.
 
