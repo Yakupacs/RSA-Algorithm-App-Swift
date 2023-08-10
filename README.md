@@ -1,5 +1,5 @@
 <h1 align="center">
-     RSA ALGORITHM APP SWİFT
+     RSA ALGORITHM APP SWIFT
 </h1>
 
 # Description
